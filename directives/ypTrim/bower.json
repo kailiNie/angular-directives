@@ -1,0 +1,21 @@
+{
+  "name": "ng-trim",
+  "description": "",
+  "main": "ypTrimDir.js",
+  "authors": [
+    "niekaili <631238321@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kailiNie/angular-directives",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.6",
+    "bootstrap": "^3.3.7"
+  }
+}

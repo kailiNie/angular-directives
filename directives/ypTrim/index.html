@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Angular(ypTrim)</title>
+    <!-- Bootstrap -->
+    <link href=" ./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      input[type="text"]:focus {
+            box-shadow: 5px 4px 1px;
+      }
+    </style>
+  </head>
+  <body  >
+    <div ng-app='app'>
+        <div class="form-group" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);">
+            <label>禁止输入空格:</label>
+            <input type="text"  ng-model ='name'  class="form-control"  yp-distrim  ng-trim='false'  placeholder="禁止输入空格"  >
+        </div>
+    </div>
+    <script src="./bower_components/angular/angular.js"> </script>
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src ="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src ="./ypTrimDir.js"></script>
+  </body>
+</html>
